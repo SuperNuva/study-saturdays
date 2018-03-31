@@ -6,11 +6,11 @@
   "scripts": {
     "start": "nodemon app.js",
     "build": "webpack",
-    "build-watch" : "webpack -w"
+    "build-watch": "webpack -w"
   },
   "author": "myself",
   "license": "ISC",
-   "dependencies": {
+  "dependencies": {
     "axios": "^0.17.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",

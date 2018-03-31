@@ -23,7 +23,7 @@ app.use(function(err, req, res, next) {
   res.status(500).send('Something broke!');
 });
 
-db.sync({force:true})
+db.sync()
   .then(() => app.listen(3000, function () {
     console.log('Server is listening on port 3000!');
     })
